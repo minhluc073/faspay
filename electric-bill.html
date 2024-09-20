@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Faspay Wallet">
+  <meta name="theme-color" content="#EEF0F3">
+  <title>Electric Bill</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="./assets/images/fav.png">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/slick.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap-drawer.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="header-main text-center pb-12 bg-white">
+    <button type="button" onclick="history.back();"><i class="ph ph-caret-left fs-24 fw-500 text-primary"></i></button>
+    <div class="page-name fs-24 fw-500">Electric Bill</div>
+  </div>
+  <div id="content">
+    <div class="bg-primary" id="preload"><i class="ph-bold ph-circle-notch text-white"></i></div>
+    <div class="heading-line"></div>
+    <div class="bank-select-block bg-white pt-12 pb-12 mt-4 pointer">
+      <div class="container flex-between">
+        <div class="left flex-row-item-center">
+          <div class="bg-img bg-warning flex-center w-56 h-56 bora-20">
+            <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Icon" clip-path="url(#clip0_1255_3018)">
+                <path id="Vector" opacity="0.5"
+                  d="M22.7332 10.8993C22.5722 10.649 22.2957 10.5003 22 10.5003H15.8751V0.8754C15.8751 0.462406 15.5863 0.105411 15.1821 0.0196622C14.7708 -0.0678366 14.3683 0.14391 14.2003 0.520155L7.20044 16.2699C7.0797 16.5394 7.10595 16.8544 7.26694 17.1012C7.42794 17.3497 7.70444 17.5002 8.00018 17.5002H14.1251V27.125C14.1251 27.538 14.4138 27.895 14.8181 27.9808C14.8793 27.993 14.9406 28 15.0001 28C15.3396 28 15.6563 27.8023 15.7998 27.4803L22.7997 11.7305C22.9187 11.4593 22.896 11.1478 22.7332 10.8993Z"
+                  fill="#fff"></path>
+                <path id="Vector_2"
+                  d="M20.6081 10.8992C20.4471 10.649 20.1706 10.5002 19.8748 10.5002H13.7499V0.87537C13.7499 0.462376 13.4611 0.105381 13.0569 0.0196317C12.6457 -0.0678671 12.2432 0.14388 12.0752 0.520125L5.07526 16.2699C4.95451 16.5394 4.98076 16.8544 5.14176 17.1011C5.30276 17.3496 5.57925 17.5001 5.875 17.5001H11.9999V27.125C11.9999 27.538 12.2887 27.895 12.6929 27.9807C12.7542 27.993 12.8154 28 12.8749 28C13.2144 28 13.5311 27.8022 13.6746 27.4803L20.6745 11.7305C20.7935 11.4592 20.7708 11.1477 20.6081 10.8992Z"
+                  fill="#fff"></path>
+              </g>
+              <defs>
+                <clippath id="clip0_1255_3018">
+                  <rect width="28" height="28" fill="white"></rect>
+                </clippath>
+              </defs>
+            </svg>
+          </div>
+          <div class="infor ml-12">
+            <div class="name fw-400">Electric Company</div>
+            <div class="number fs-14 fw-400 text-secondary mt-4">1024 0135 8686</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bill-block mt-16">
+      <div class="container">
+        <div class="pop-up">
+          <div class="desc-block">
+            <div class="heading fs-24">Bill Payment Due</div>
+            <div class="sub-heading mt-8 fw-400 text-secondary">Update From The Supplier Yesterday!</div>
+            <div class="money mt-24 fs-24 text-primary">$123.00</div>
+          </div>
+          <div class="dashed-line"></div>
+          <div class="user-infor">
+            <div class="heading text-center">Customer Information</div>
+            <div class="list-infor mt-20">
+              <div class="infor flex-between">
+                <div class="fs-14 text-box">Customer's Code</div>
+                <div class="fs-14">PD123456789</div>
+              </div>
+              <div class="infor flex-between mt-8">
+                <div class="fs-14 text-box">Customer's Name</div>
+                <div class="fs-14">David James</div>
+              </div>
+              <div class="infor flex-between mt-8">
+                <div class="fs-14 text-box">Phone Number</div>
+                <div class="fs-14">109-225-463</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button-block button-fixed bg-white">
+        <div class="container flex-center h-100"><a class="btn btn-main" href="pay-the-bill.html">Pay the bill</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/preload.js"></script>
+  <script src="./assets/js/darkmode.js"></script>
+
+  <script src="./assets/js/phosphor-icons.js"></script>
+</body>
+
+</html>

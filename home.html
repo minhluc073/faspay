@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Faspay Wallet">
+  <meta name="theme-color" content="#EEF0F3">
+  <title>Home</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="./assets/images/fav.png">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/slick.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap-drawer.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="header-block"> <img src="assets/images/header/bg.png" alt="">
+    <div class="container"><a class="avatar-block w-32 h-32" href="profile.html"><img class="w-100 h-100"
+          src="assets/images/avatar/IMG.png" alt=""></a>
+      <div class="balance-block flex-columns-center">
+        <div class="text-heading fs-18 text-white mt-32">Balance </div>
+        <div class="money text-primary-sup fs-24 pt-4">$12,769.00</div>
+      </div><a class="noti-block" href="notification.html">
+        <svg width="24" height="26" viewbox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="Notification">
+            <g id="Notification_Light_24px">
+              <g id="Notification_2">
+                <g id="Group3"></g>
+                <mask id="mask0_1481_2653" style="mask-type:luminance" maskunits="userSpaceOnUse" x="3" y="3" width="18"
+                  height="17">
+                  <path id="Clip2" fill-rule="evenodd" clip-rule="evenodd" d="M3 3.41177H21V19.5494H3V3.41177Z"
+                    fill="white"></path>
+                </mask>
+                <g mask="url(#mask0_1481_2653)">
+                  <path id="Fill1" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.9986 4.80712C8.5975 4.80712 6.22695 7.35409 6.22695 9.63967C6.22695 11.5736 5.66545 12.4676 5.16915 13.2564C4.77114 13.8899 4.45682 14.3904 4.45682 15.4778C4.61933 17.2322 5.83088 18.1541 11.9986 18.1541C18.1323 18.1541 19.3818 17.1913 19.5433 15.4173C19.5404 14.3904 19.2261 13.8899 18.8281 13.2564C18.3318 12.4676 17.7703 11.5736 17.7703 9.63967C17.7703 7.35409 15.3997 4.80712 11.9986 4.80712M11.9986 19.5494C7.44821 19.5494 3.33574 19.2424 3.00001 15.5373C2.99709 14.0043 3.48658 13.2248 3.91865 12.5383C4.35559 11.8424 4.76723 11.1866 4.76723 9.63966C4.76723 6.63223 7.67301 3.41177 11.9986 3.41177C16.3242 3.41177 19.23 6.63223 19.23 9.63966C19.23 11.1866 19.6416 11.8424 20.0785 12.5383C20.5106 13.2248 21.0001 14.0043 21.0001 15.4778C20.6605 19.2424 16.549 19.5494 11.9986 19.5494"
+                    fill="white"></path>
+                </g>
+                <path id="Fill4" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11.9511 23.4118H11.9491C10.8582 23.4108 9.82573 22.9513 9.04236 22.1169C8.7728 21.8313 8.79713 21.3894 9.09685 21.1327C9.39658 20.8741 9.85785 20.8974 10.1274 21.1848C10.6315 21.7215 11.2786 22.0164 11.9501 22.0164H11.9511C12.6254 22.0164 13.2755 21.7215 13.7806 21.1839C14.0511 20.8983 14.5123 20.875 14.8111 21.1327C15.1108 21.3904 15.1352 21.8322 14.8656 22.1178C14.0793 22.9522 13.0449 23.4118 11.9511 23.4118"
+                  fill="white"></path>
+              </g>
+            </g>
+            <circle id="Ellipse117" cx="18" cy="5" r="5" fill="#FEBC11"></circle>
+          </g>
+        </svg></a>
+      <div class="header-nav flex-between bg-white"><a class="nav-item text-center" href="top-up.html">
+          <div class="icon-img">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Icon1">
+                <g id="Group">
+                  <path id="Vector_0"
+                    d="M14 26C10.7947 26 7.78119 24.7518 5.51469 22.4853C3.24819 20.2188 2 17.2053 2 14C2 10.7947 3.24823 7.78124 5.51469 5.51469C7.78114 3.24814 10.7947 2 14 2C17.2053 2 20.2188 3.24819 22.4853 5.51469C24.7518 7.78119 26 10.7947 26 14C26 17.2053 24.7518 20.2188 22.4853 22.4853C20.2189 24.7519 17.2053 26 14 26V26ZM14 3.5C8.21028 3.5 3.5 8.21028 3.5 14C3.5 19.7897 8.21028 24.5 14 24.5C19.7897 24.5 24.5 19.7897 24.5 14C24.5 8.21028 19.7897 3.5 14 3.5Z"
+                    fill="#665AF0"></path>
+                  <path id="Vector_1"
+                    d="M14 13.25C12.9661 13.25 12.125 12.4089 12.125 11.375C12.125 10.3411 12.9661 9.5 14 9.5C15.0339 9.5 15.875 10.3411 15.875 11.375C15.875 11.7892 16.2108 12.125 16.625 12.125C17.0392 12.125 17.375 11.7892 17.375 11.375C17.375 9.77183 16.251 8.42713 14.75 8.08503V7.25C14.75 6.83581 14.4142 6.5 14 6.5C13.5858 6.5 13.25 6.83581 13.25 7.25V8.08503C11.749 8.42713 10.625 9.77183 10.625 11.375C10.625 13.236 12.139 14.75 14 14.75C15.0339 14.75 15.875 15.5911 15.875 16.625C15.875 17.6589 15.0339 18.5 14 18.5C12.9661 18.5 12.125 17.6589 12.125 16.625C12.125 16.2108 11.7892 15.875 11.375 15.875C10.9608 15.875 10.625 16.2108 10.625 16.625C10.625 18.2282 11.749 19.5729 13.25 19.915V20.75C13.25 21.1642 13.5858 21.5 14 21.5C14.4142 21.5 14.75 21.1642 14.75 20.75V19.915C16.251 19.5729 17.375 18.2282 17.375 16.625C17.375 14.764 15.861 13.25 14 13.25Z"
+                    fill="#FEBC11"></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="item-name fs-14 mt-4">Top Up</div>
+        </a><a class="nav-item text-center" href="my-wallet.html">
+          <div class="icon-img">
+            <svg width="26" height="28" viewbox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Icon2">
+                <g id="Wallet">
+                  <path id="Fill2" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M23.333 17.6245H18.962C16.9136 17.6245 15.2464 15.9345 15.2453 13.8578C15.2453 11.7789 16.9125 10.0878 18.962 10.0867H23.333C23.7801 10.0867 24.1429 10.4547 24.1429 10.9081C24.1429 11.3616 23.7801 11.7296 23.333 11.7296H18.962C17.8055 11.7307 16.865 12.6847 16.865 13.8567C16.865 15.0276 17.8066 15.9816 18.962 15.9816H23.333C23.7801 15.9816 24.1429 16.3496 24.1429 16.803C24.1429 17.2565 23.7801 17.6245 23.333 17.6245"
+                    fill="#FEBC11"></path>
+                  <path id="Fill3" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M19.4561 14.6102H19.1192C18.6721 14.6102 18.3093 14.2422 18.3093 13.7888C18.3093 13.3353 18.6721 12.9673 19.1192 12.9673H19.4561C19.9031 12.9673 20.2659 13.3353 20.2659 13.7888C20.2659 14.2422 19.9031 14.6102 19.4561 14.6102"
+                    fill="#FEBC11"></path>
+                  <g id="Group7">
+                    <mask id="mask0_1466_2578" style="mask-type:luminance" maskunits="userSpaceOnUse" x="1" y="3"
+                      width="24" height="22">
+                      <path id="Clip6" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M1.85712 3.5H24.1427V24.5H1.85712V3.5Z" fill="white"></path>
+                    </mask>
+                    <g mask="url(#mask0_1466_2578)">
+                      <path id="Fill5" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M8.33336 5.14293C5.65546 5.14293 3.47642 7.35324 3.47642 10.0696V17.9305C3.47642 20.6469 5.65546 22.8572 8.33336 22.8572H17.6672C20.3451 22.8572 22.523 20.6469 22.523 17.9305V10.0696C22.523 7.35324 20.3451 5.14293 17.6672 5.14293H8.33336ZM17.6671 24.5001H8.33334C4.76244 24.5001 1.85669 21.5527 1.85669 17.9305V10.0696C1.85669 6.44635 4.76244 3.5 8.33334 3.5H17.6671C21.238 3.5 24.1427 6.44635 24.1427 10.0696V17.9305C24.1427 21.5527 21.238 24.5001 17.6671 24.5001V24.5001Z"
+                        fill="#665AF0"></path>
+                    </g>
+                  </g>
+                  <path id="Fill8" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.3943 10.1135H7.56449C7.11745 10.1135 6.75464 9.74551 6.75464 9.29205C6.75464 8.8386 7.11745 8.47058 7.56449 8.47058H13.3943C13.8414 8.47058 14.2042 8.8386 14.2042 9.29205C14.2042 9.74551 13.8414 10.1135 13.3943 10.1135"
+                    fill="#665AF0"></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="item-name fs-14 mt-4">Wallet</div>
+        </a><a class="nav-item text-center" href="scan-qr.html">
+          <div class="icon-img">
+            <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Icon3">
+                <g id="Scan">
+                  <path id="Scan_2" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M10.9331 4.83024C10.9331 4.37154 10.5611 4 10.103 4H10.1019L8.32477 4.00109C5.93459 4.00327 3.9895 5.94813 3.9895 8.33643V10.4022C3.9895 10.8598 4.3615 11.2325 4.81968 11.2325C5.27786 11.2325 5.65095 10.8598 5.65095 10.4022V8.33643C5.65095 6.86226 6.85095 5.66266 8.32586 5.66048L10.103 5.65939C10.5622 5.65939 10.9331 5.28786 10.9331 4.83024ZM19.6658 4.00034H17.928C17.4698 4.00034 17.0978 4.37187 17.0978 4.83058C17.0978 5.28819 17.4698 5.65864 17.928 5.65864H19.6658C21.1461 5.65864 22.3505 6.86151 22.3505 8.34004V10.4026C22.3505 10.8602 22.7225 11.2328 23.1807 11.2328C23.64 11.2328 24.0109 10.8602 24.0109 10.4026V8.34004C24.0109 5.94628 22.0625 4.00034 19.6658 4.00034ZM2.83127 14.0458H25.1698C25.628 14.0458 26 14.4173 26 14.8761C26 15.3337 25.628 15.7041 25.1698 15.7041H24.0113V19.6592C24.0113 22.054 22.0618 24 19.6662 24H17.9284C17.4691 24 17.0971 23.6285 17.0971 23.1698C17.0971 22.7121 17.4691 22.3406 17.9284 22.3406H19.6662C21.1465 22.3406 22.3509 21.1388 22.3509 19.6592V15.7041H19.4895V16.8057C19.5004 18.1839 18.3931 19.3105 17.0131 19.3236H10.9869C9.608 19.3105 8.50073 18.1839 8.51164 16.8057V15.7041H5.65018V19.6636C5.65018 21.1377 6.85127 22.3373 8.32727 22.3395L10.1033 22.3406C10.5615 22.3406 10.9335 22.7121 10.9335 23.1698C10.9324 23.6285 10.5615 24 10.1022 24L8.32509 23.9989C5.93491 23.9967 3.98873 22.0519 3.98873 19.6636V15.7041H2.83127C2.37309 15.7041 2 15.3337 2 14.8761C2 14.4173 2.37309 14.0458 2.83127 14.0458Z"
+                    fill="#665AF0"></path>
+                  <path id="Fill9"
+                    d="M17.0015 8.09998H10.9754C9.59646 8.11414 8.4881 9.23965 8.5001 10.6179V12.0017C8.50337 12.1629 8.63319 12.2948 8.79464 12.3002H19.1801C19.3426 12.2959 19.4725 12.164 19.4779 12.0017V10.6179C19.479 9.95222 19.2215 9.31265 18.7568 8.83652C18.2954 8.36474 17.6615 8.09998 17.0015 8.09998"
+                    fill="#EFAE20"></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="item-name fs-14 mt-4">QR Scan</div>
+        </a><a class="nav-item text-center" href="my-qr.html">
+          <div class="icon-img">
+            <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Rectangle54">
+                <g id="Group2">
+                  <path id="Vector"
+                    d="M10.6094 13.125H6.01563C4.62853 13.125 3.5 11.9965 3.5 10.6094V6.01563C3.5 4.62853 4.62853 3.5 6.01563 3.5H10.6094C11.9965 3.5 13.125 4.62853 13.125 6.01563V10.6094C13.125 11.9965 11.9965 13.125 10.6094 13.125ZM6.01563 5.25C5.59344 5.25 5.25 5.59344 5.25 6.01563V10.6094C5.25 11.0316 5.59344 11.375 6.01563 11.375H10.6094C11.0316 11.375 11.375 11.0316 11.375 10.6094V6.01563C11.375 5.59344 11.0316 5.25 10.6094 5.25H6.01563Z"
+                    fill="#665AF0"></path>
+                  <path id="Vector_2"
+                    d="M10.6094 24.5H6.01563C4.62853 24.5 3.5 23.3715 3.5 21.9844V17.3906C3.5 16.0035 4.62853 14.875 6.01563 14.875H10.6094C11.9965 14.875 13.125 16.0035 13.125 17.3906V21.9844C13.125 23.3715 11.9965 24.5 10.6094 24.5ZM6.01563 16.625C5.59344 16.625 5.25 16.9684 5.25 17.3906V21.9844C5.25 22.4066 5.59344 22.75 6.01563 22.75H10.6094C11.0316 22.75 11.375 22.4066 11.375 21.9844V17.3906C11.375 16.9684 11.0316 16.625 10.6094 16.625H6.01563Z"
+                    fill="#665AF0"></path>
+                  <path id="Vector_3"
+                    d="M21.9844 13.125H17.3906C16.0035 13.125 14.875 11.9965 14.875 10.6094V6.01563C14.875 4.62853 16.0035 3.5 17.3906 3.5H21.9844C23.3715 3.5 24.5 4.62853 24.5 6.01563V10.6094C24.5 11.9965 23.3715 13.125 21.9844 13.125ZM17.3906 5.25C16.9684 5.25 16.625 5.59344 16.625 6.01563V10.6094C16.625 11.0316 16.9684 11.375 17.3906 11.375H21.9844C22.4066 11.375 22.75 11.0316 22.75 10.6094V6.01563C22.75 5.59344 22.4066 5.25 21.9844 5.25H17.3906Z"
+                    fill="#665AF0"></path>
+                  <path id="Vector_4"
+                    d="M23.0781 19.25H21V16.2969C21 15.5129 20.3622 14.875 19.5781 14.875H16.2969C15.5128 14.875 14.875 15.5129 14.875 16.2969V19.5781C14.875 20.3621 15.5128 21 16.2969 21H19.25V23.0781C19.25 23.8621 19.8878 24.5 20.6719 24.5H23.0781C23.8622 24.5 24.5 23.8621 24.5 23.0781V20.6719C24.5 19.8879 23.8622 19.25 23.0781 19.25ZM16.625 16.625H19.25V19.25H16.625V16.625ZM22.75 22.75H21V21H22.75V22.75Z"
+                    fill="#FEBC11"></path>
+                  <path id="Vector_5"
+                    d="M8.75 9.625H7.875C7.39173 9.625 7 9.23322 7 8.75V7.875C7 7.39178 7.39173 7 7.875 7H8.75C9.23328 7 9.625 7.39178 9.625 7.875V8.75C9.625 9.23322 9.23328 9.625 8.75 9.625Z"
+                    fill="#665AF0"></path>
+                  <path id="Vector_6"
+                    d="M20.125 9.625H19.25C18.7667 9.625 18.375 9.23322 18.375 8.75V7.875C18.375 7.39178 18.7667 7 19.25 7H20.125C20.6083 7 21 7.39178 21 7.875V8.75C21 9.23322 20.6083 9.625 20.125 9.625Z"
+                    fill="#665AF0"></path>
+                  <path id="Vector_7"
+                    d="M8.75 21H7.875C7.39173 21 7 20.6082 7 20.125V19.25C7 18.7668 7.39173 18.375 7.875 18.375H8.75C9.23328 18.375 9.625 18.7668 9.625 19.25V20.125C9.625 20.6082 9.23328 21 8.75 21Z"
+                    fill="#665AF0"></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="item-name fs-14 mt-4">My QR</div>
+        </a></div>
+    </div>
+  </div>
+  <div id="content">
+    <div class="bg-primary" id="preload"><i class="ph-bold ph-circle-notch text-white"></i></div>
+    <div class="payment-list-block pt-12 pb-16 bg-white">
+      <div class="container">
+        <div class="heading fs-18 fw-500">Payment List</div>
+        <div class="list flex-between pt-12"><a class="item" href="electric-bill.html">
+            <div class="bg-img bg-warning">
+              <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Icon4" clip-path="url(#clip0_1255_3018)">
+                  <path id="Vector_8" opacity="0.5"
+                    d="M22.7332 10.8993C22.5722 10.649 22.2957 10.5003 22 10.5003H15.8751V0.8754C15.8751 0.462406 15.5863 0.105411 15.1821 0.0196622C14.7708 -0.0678366 14.3683 0.14391 14.2003 0.520155L7.20044 16.2699C7.0797 16.5394 7.10595 16.8544 7.26694 17.1012C7.42794 17.3497 7.70444 17.5002 8.00018 17.5002H14.1251V27.125C14.1251 27.538 14.4138 27.895 14.8181 27.9808C14.8793 27.993 14.9406 28 15.0001 28C15.3396 28 15.6563 27.8023 15.7998 27.4803L22.7997 11.7305C22.9187 11.4593 22.896 11.1478 22.7332 10.8993Z"
+                    fill="#fff"></path>
+                  <path id="Vector_9"
+                    d="M20.6081 10.8992C20.4471 10.649 20.1706 10.5002 19.8748 10.5002H13.7499V0.87537C13.7499 0.462376 13.4611 0.105381 13.0569 0.0196317C12.6457 -0.0678671 12.2432 0.14388 12.0752 0.520125L5.07526 16.2699C4.95451 16.5394 4.98076 16.8544 5.14176 17.1011C5.30276 17.3496 5.57925 17.5001 5.875 17.5001H11.9999V27.125C11.9999 27.538 12.2887 27.895 12.6929 27.9807C12.7542 27.993 12.8154 28 12.8749 28C13.2144 28 13.5311 27.8022 13.6746 27.4803L20.6745 11.7305C20.7935 11.4592 20.7708 11.1477 20.6081 10.8992Z"
+                    fill="#fff"></path>
+                </g>
+                <defs>
+                  <clippath id="clip0_1255_3018">
+                    <rect width="28" height="28" fill="white"></rect>
+                  </clippath>
+                </defs>
+              </svg>
+            </div>
+            <div class="name fs-14 mt-8">Electricity</div>
+          </a><a class="item" href="internet-bill.html">
+            <div class="bg-img bg-interactive">
+              <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Icon5" clip-path="url(#clip0_1255_3021)">
+                  <g id="Group_1">
+                    <g id="Group_2">
+                      <g id="Group_3">
+                        <path id="Vector_10" opacity="0.5"
+                          d="M10.1819 20.0812L14.0001 23.8994L17.8182 20.0812C15.7119 17.9749 12.2882 17.9749 10.1819 20.0812Z"
+                          fill="#fff"></path>
+                        <path id="Vector_11"
+                          d="M5.09088 14.9903L7.63636 17.5357C11.1491 14.023 16.8509 14.023 20.3636 17.5357L22.9091 14.9903C17.99 10.0712 10.01 10.0712 5.09088 14.9903Z"
+                          fill="#fff"></path>
+                        <path id="Vector_12"
+                          d="M0 9.89936L2.54548 12.4448C8.87096 6.11936 19.1291 6.11936 25.4546 12.4448L28.0001 9.89936C20.2682 2.16754 7.73182 2.16754 0 9.89936Z"
+                          fill="#fff"></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <defs>
+                  <clippath id="clip0_1255_3021">
+                    <rect width="28" height="28" fill="white"></rect>
+                  </clippath>
+                </defs>
+              </svg>
+            </div>
+            <div class="name fs-14 mt-8">Internet</div>
+          </a><a class="item" href="insurrance-bill.html">
+            <div class="bg-img bg-success">
+              <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Icon6">
+                  <rect id="Rectangle284" opacity="0.5" x="5" y="7" width="18" height="12" fill="#fff"></rect>
+                  <path id="Vector_13"
+                    d="M26.16 3.91881C26.1097 3.5578 25.85 3.26084 25.4989 3.16324L14.2452 0.0335818C14.0848 -0.0110718 13.9153 -0.0110718 13.7547 0.0335818L2.50105 3.16324C2.14992 3.26084 1.89018 3.55768 1.83991 3.91881C1.77464 4.38816 0.285576 15.4779 4.10492 20.9947C7.91975 26.5049 13.5474 27.9169 13.7851 27.9744C13.8558 27.9915 13.9277 27.9999 14 27.9999C14.0722 27.9999 14.1442 27.9914 14.2148 27.9744C14.4526 27.9169 20.0803 26.5049 23.895 20.9947C27.7143 15.478 26.2253 4.38828 26.16 3.91881ZM21.2571 10.3931L13.581 18.0692C13.4024 18.2479 13.1681 18.3373 12.934 18.3373C12.6999 18.3373 12.4656 18.248 12.287 18.0692L7.54093 13.3232C7.36927 13.1516 7.27289 12.9188 7.27289 12.6762C7.27289 12.4335 7.36939 12.2007 7.54093 12.0292L8.48329 11.0868C8.84064 10.7296 9.42004 10.7295 9.77727 11.0868L12.934 14.2436L19.0208 8.15663C19.1923 7.98497 19.4251 7.88859 19.6678 7.88859C19.9105 7.88859 20.1432 7.98497 20.3148 8.15663L21.2571 9.09899C21.6145 9.45634 21.6145 10.0357 21.2571 10.3931Z"
+                    fill="#fff"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="name fs-14 mt-8">Insurrance</div>
+          </a><a class="item" href="medical-bill.html">
+            <div class="bg-img bg-critcal">
+              <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Icon7" clip-path="url(#clip0_1255_3031)">
+                  <path id="Vector_14" opacity="0.5"
+                    d="M17.2812 28H10.7188C10.2653 28 9.89844 27.6331 9.89844 27.1797V21.8787L5.6006 24.8883C5.42358 25.0133 5.20406 25.0662 4.98777 25.0237C4.77389 24.9861 4.58325 24.8651 4.45823 24.6865L0.69475 19.3104C0.435203 18.9395 0.524945 18.4284 0.896601 18.168L6.8495 14L0.896656 9.83194C0.524945 9.57157 0.435203 9.06052 0.694805 8.68957L4.45823 3.31352C4.5832 3.13485 4.77384 3.01388 4.98777 2.97626C5.20406 2.93863 5.42358 2.98829 5.6006 3.11166L9.89844 6.12134V0.820312C9.89844 0.366898 10.2653 0 10.7188 0H17.2812C17.7347 0 18.1016 0.366898 18.1016 0.820312V6.12134L22.3994 3.11166C22.5772 2.98829 22.7975 2.93863 23.0122 2.97626C23.2261 3.01388 23.4167 3.13485 23.5418 3.31352L27.3052 8.68962C27.5648 9.06052 27.4751 9.57163 27.1034 9.83199L21.1505 14L27.1034 18.1681C27.4751 18.4284 27.5649 18.9395 27.3052 19.3104L23.5418 24.6865C23.4168 24.8652 23.2262 24.9862 23.0122 25.0238C22.7975 25.0662 22.5772 25.0134 22.3994 24.8884L18.1016 21.8787V27.1797C18.1016 27.6331 17.7347 28 17.2812 28Z"
+                    fill="#fff"></path>
+                  <path id="Vector_15"
+                    d="M27.3052 8.68962L23.5418 3.31352C23.4168 3.13485 23.2262 3.01388 23.0122 2.97626C22.7975 2.93863 22.5772 2.98829 22.3994 3.11166L18.1016 6.12134V0.820312C18.1016 0.366898 17.7347 0 17.2812 0H14V28H17.2812C17.7347 28 18.1016 27.6331 18.1016 27.1797V21.8787L22.3994 24.8883C22.5772 25.0133 22.7975 25.0662 23.0122 25.0237C23.2261 24.9861 23.4167 24.8651 23.5418 24.6865L27.3052 19.3104C27.5648 18.9395 27.4751 18.4284 27.1034 18.168L21.1505 14L27.1034 9.83194C27.4751 9.57157 27.5648 9.06052 27.3052 8.68962Z"
+                    fill="#fff"></path>
+                </g>
+                <defs>
+                  <clippath id="clip0_1255_3031">
+                    <rect width="28" height="28" fill="white"></rect>
+                  </clippath>
+                </defs>
+              </svg>
+            </div>
+            <div class="name fs-14 mt-8">Medical</div>
+          </a><a class="item" href="market-bill.html">
+            <div class="bg-img bg-success">
+              <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Icon8" clip-path="url(#clip0_1255_3034)">
+                  <path id="Vector_16"
+                    d="M22.2728 22.1666H11.7798C10.2667 22.1666 8.925 21.1738 8.5155 19.7516L4.96883 7.73379C4.84283 7.29863 4.424 6.99996 3.94567 6.99996H1.16667C0.5215 6.99996 0 6.47729 0 5.83329C0 5.18929 0.5215 4.66663 1.16667 4.66663H3.94567C5.45883 4.66663 6.79933 5.65946 7.20883 7.08163L7.87267 9.33329H25.7168C26.4448 9.33329 27.1355 9.67979 27.5637 10.2608C27.9883 10.8371 28.1108 11.5581 27.8997 12.2395L25.4928 19.8788C25.0215 21.2578 23.73 22.1666 22.2728 22.1666ZM25.718 11.6666H25.7297H25.718Z"
+                    fill="#fff"></path>
+                  <path id="Vector_17"
+                    d="M12.8333 28C11.5465 28 10.5 26.9535 10.5 25.6666C10.5 24.3798 11.5465 23.3333 12.8333 23.3333C14.1202 23.3333 15.1667 24.3798 15.1667 25.6666C15.1667 26.9535 14.1202 28 12.8333 28ZM12.8333 25.6655V25.6666V25.6655Z"
+                    fill="#fff"></path>
+                  <path id="Vector_18" opacity="0.6"
+                    d="M21 28C19.7132 28 18.6667 26.9535 18.6667 25.6666C18.6667 24.3798 19.7132 23.3333 21 23.3333C22.2868 23.3333 23.3333 24.3798 23.3333 25.6666C23.3333 26.9535 22.2868 28 21 28ZM21 25.6655V25.6666V25.6655Z"
+                    fill="#fff"></path>
+                </g>
+                <defs>
+                  <clippath id="clip0_1255_3034">
+                    <rect width="28" height="28" fill="white"></rect>
+                  </clippath>
+                </defs>
+              </svg>
+            </div>
+            <div class="name fs-14 mt-8">Market</div>
+          </a><a class="item" href="electric-bill.html">
+            <div class="bg-img bg-warning">
+              <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Icon9" clip-path="url(#clip0_1474_2645)">
+                  <g id="Group_4">
+                    <g id="Group_5">
+                      <g id="Group_6"></g>
+                      <path id="Vector_19" opacity="0.5"
+                        d="M17.4962 20.4169H10.5044C10.1824 20.4169 9.92108 20.8089 9.92108 21.2919C9.92108 21.7749 10.1818 22.1669 10.5044 22.1669H17.4962C17.8182 22.1669 18.0796 21.7749 18.0796 21.2919C18.0796 20.8089 17.8182 20.4169 17.4962 20.4169Z"
+                        fill="#fff"></path>
+                      <path id="Vector_20" opacity="0.5"
+                        d="M17.4962 23.3335H10.5044C10.1824 23.3335 9.92108 23.7255 9.92108 24.2085C9.92108 24.6915 10.1818 25.0835 10.5044 25.0835H17.4962C17.8182 25.0835 18.0796 24.6915 18.0796 24.2085C18.0796 23.7255 17.8182 23.3335 17.4962 23.3335Z"
+                        fill="#fff"></path>
+                      <path id="Vector_21" opacity="0.5"
+                        d="M15.7497 26.2501H12.2497C11.9277 26.2501 11.6664 26.6421 11.6664 27.1251C11.6664 27.6081 11.9271 28.0001 12.2497 28.0001H15.7497C16.0717 28.0001 16.333 27.6081 16.333 27.1251C16.333 26.6421 16.0699 26.2501 15.7497 26.2501Z"
+                        fill="#fff"></path>
+                      <path id="Vector_22"
+                        d="M22.0596 5.89942C21.8455 5.33182 21.345 4.00243 20.1346 2.71909C18.8577 1.3652 17.3381 0.502462 15.6173 0.158863C14.5497 -0.052995 13.4509 -0.052995 12.3833 0.158863C10.6648 0.503009 9.14466 1.364 7.86597 2.71849C6.65963 3.99598 6.15563 5.32947 5.94099 5.89882C5.66859 6.62156 5.16109 7.96615 5.30399 9.73479C5.46149 11.6808 6.30848 13.1024 6.58733 13.5696C6.76233 13.8584 7.11233 14.4102 7.81522 15.4007C7.99022 15.6509 8.14362 15.8557 8.27486 16.0336C8.60151 16.4769 8.78176 16.7213 8.96726 17.1069C9.2204 17.6329 9.40678 18.1885 9.522 18.7607C9.5774 19.0321 9.81605 19.2271 10.0931 19.2273H17.9079C18.1889 19.2269 18.4296 19.0264 18.4808 18.7502C18.5846 18.1824 18.7691 17.6324 19.0285 17.1168C19.2315 16.7155 19.4188 16.4588 19.7589 15.9922C19.882 15.8236 20.022 15.6311 20.1888 15.3966C20.6724 14.7152 21.0906 14.1267 21.4138 13.5667C21.7229 13.0417 22.5442 11.6417 22.6971 9.73364C22.836 7.96211 22.3308 6.62041 22.0596 5.89942Z"
+                        fill="#fff"></path>
+                    </g>
+                  </g>
+                </g>
+                <defs>
+                  <clippath id="clip0_1474_2645">
+                    <rect width="28" height="28" fill="white"></rect>
+                  </clippath>
+                </defs>
+              </svg>
+            </div>
+            <div class="name fs-14 mt-8">Electric bill</div>
+          </a><a class="item" href="television-bill.html">
+            <div class="bg-img bg-interactive">
+              <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Icon10">
+                  <g id="Group_7"></g>
+                  <rect id="Rectangle285" opacity="0.5" x="2" y="3.01437" width="24" height="17.1416" fill="#fff">
+                  </rect>
+                  <g id="Group_8">
+                    <path id="Vector_25"
+                      d="M25.4546 1.27271H2.54548C1.13907 1.27271 0 2.42133 0 3.83939V19.2394C0 20.6574 1.13907 21.8061 2.54548 21.8061H11.4546V24.3727H8.90908V26.9394H19.0909V24.3727H16.5454V21.806H25.4545C26.8609 21.806 28 20.6574 28 19.2393V3.83939C28 2.42133 26.8609 1.27271 25.4546 1.27271ZM25.4546 19.2394H2.54548V3.83939H25.4546V19.2394Z"
+                      fill="#fff"></path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="name fs-14 mt-8">Television</div>
+          </a><a class="item" href="water-bill.html">
+            <div class="bg-img bg-water">
+              <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Icon11">
+                  <path id="Vector_23"
+                    d="M23.975 18.025C23.975 23.5666 19.4834 28 14 28C8.51667 28 4.02502 23.5666 4.02502 18.025C4.02502 12.4834 14 0 14 0C14 0 23.975 12.5416 23.975 18.025Z"
+                    fill="#fff"></path>
+                  <path id="Vector_24" opacity="0.5"
+                    d="M14 25.3749C9.97502 25.3749 6.65002 22.1082 6.65002 18.0249C6.65002 17.5582 7.05838 17.1499 7.52502 17.1499C7.99167 17.1499 8.40002 17.5582 8.40002 18.0249C8.40002 21.1165 10.9084 23.6249 14 23.6249C14.4667 23.6249 14.875 24.0332 14.875 24.4999C14.875 24.9665 14.4667 25.3749 14 25.3749Z"
+                    fill="#84DBFF"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="name fs-14 mt-8">Waterbill</div>
+          </a></div>
+      </div>
+    </div>
+    <div class="send-again-block mt-4 pt-20 pb-20 bg-white">
+      <div class="container">
+        <div class="heading fs-18 fw-500">Send Again</div>
+        <div class="list-send-again pt-12">
+          <div class="item"><a class="user-item item-main flex-columns-item-center" href="transfer-by-wallet.html">
+              <div class="bg-img bg-white"><img src="assets/images/avatar/avatar1.png" alt="avatar1"></div>
+              <div class="name fs-14 mt-8">John</div>
+            </a></div>
+          <div class="item"><a class="user-item item-main flex-columns-item-center" href="transfer-by-wallet.html">
+              <div class="bg-img bg-white"><img src="assets/images/avatar/avatar2.png" alt="avatar2"></div>
+              <div class="name fs-14 mt-8">Hannah</div>
+            </a></div>
+          <div class="item"><a class="user-item item-main flex-columns-item-center" href="transfer-by-wallet.html">
+              <div class="bg-img bg-white"><img src="assets/images/avatar/avatar3.png" alt="avatar1"></div>
+              <div class="name fs-14 mt-8">Wiliiam</div>
+            </a></div>
+          <div class="item"><a class="user-item item-main flex-columns-item-center" href="transfer-by-wallet.html">
+              <div class="bg-img bg-white"><img src="assets/images/avatar/avatar4.png" alt="avatar1"></div>
+              <div class="name fs-14 mt-8">Leahaed</div>
+            </a></div>
+          <div class="item"><a class="user-item item-main flex-columns-item-center" href="transfer-by-wallet.html">
+              <div class="bg-img bg-white"><img src="assets/images/avatar/avatar5.png" alt="avatar1"></div>
+              <div class="name fs-14 mt-8">Lenarton</div>
+            </a></div>
+          <div class="item"><a class="user-item item-main flex-columns-item-center" href="transfer-by-wallet.html">
+              <div class="bg-img bg-white"><img src="assets/images/avatar/avatar6.png" alt="avatar1"></div>
+              <div class="name fs-14 mt-8">Leah</div>
+            </a></div>
+          <div class="item"><a class="user-item item-main flex-columns-item-center" href="transfer-by-wallet.html">
+              <div class="bg-img bg-white"><img src="assets/images/avatar/avatar7.png" alt="avatar1"></div>
+              <div class="name fs-14 mt-8">Clates</div>
+            </a></div>
+          <div class="item"><a class="user-item item-main flex-columns-item-center" href="transfer-by-wallet.html">
+              <div class="bg-img bg-white"><img src="assets/images/avatar/avatar8.png" alt="avatar1"></div>
+              <div class="name fs-14 mt-8">Hareis</div>
+            </a></div>
+          <div class="item"><a class="user-item item-main flex-columns-item-center" href="transfer-by-wallet.html">
+              <div class="bg-img bg-white"><img src="assets/images/avatar/avatar9.png" alt="avatar1"></div>
+              <div class="name fs-14 mt-8">Maria</div>
+            </a></div>
+          <div class="item"><a class="user-item item-main flex-columns-item-center" href="transfer-by-wallet.html">
+              <div class="bg-img bg-white"><img src="assets/images/avatar/avatar10.png" alt="avatar1"></div>
+              <div class="name fs-14 mt-8">Laurent</div>
+            </a></div>
+        </div>
+      </div>
+    </div>
+    <div class="trading-history-block mt-4 pt-20 bg-white pb-70">
+      <div class="container">
+        <div class="trading-history-heading fs-18">Trading history</div>
+        <div class="list-history">
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img w-48 h-48 p-12 bg-warning"><i class="ph-fill ph-lightning fs-24 text-white"></i>
+                </div>
+                <div class="infor ml-12">
+                  <div class="name">Electric bill</div>
+                  <div class="desc text-critcal mt-4 fs-14 fw-400">Send</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-critcal">-$50</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">Today - 11:00 AM</div>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img w-48 h-48 p-12 bg-water"><i class="ph-fill ph-drop fs-24 text-white"></i></div>
+                <div class="infor ml-12">
+                  <div class="name">Water bill</div>
+                  <div class="desc text-critcal mt-4 fs-14 fw-400">Send</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-critcal">-$20</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">Today - 10:45 AM</div>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar1.png" alt="John"></div>
+                <div class="infor ml-12">
+                  <div class="name">John</div>
+                  <div class="desc text-critcal mt-4 fs-14 fw-400">Send</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-critcal">-$100</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">Today - 10:30 AM</div>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar2.png" alt="Hannah"></div>
+                <div class="infor ml-12">
+                  <div class="name">Hannah</div>
+                  <div class="desc text-success mt-4 fs-14 fw-400">Received</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-success">+$1.200</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">Today - 10:00 AM</div>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img w-48 h-48 p-12 bg-success"><i
+                    class="ph-fill ph-shopping-cart-simple fs-24 text-white"></i></div>
+                <div class="infor ml-12">
+                  <div class="name">Market bill</div>
+                  <div class="desc text-critcal mt-4 fs-14 fw-400">Send</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-critcal">-$50</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">Yesterday - 11:00 AM</div>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img w-48 h-48 p-12 bg-primary"><i class="ph-fill ph-qr-code fs-24 text-white"></i></div>
+                <div class="infor ml-12">
+                  <div class="name">QR Payment</div>
+                  <div class="desc text-critcal mt-4 fs-14 fw-400">Send</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-critcal">-$28</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">Yesterday - 11:00 AM</div>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img w-48 h-48 p-12 bg-interactive"><i class="ph-bold ph-wifi-high fs-24 text-white"></i>
+                </div>
+                <div class="infor ml-12">
+                  <div class="name">Internet</div>
+                  <div class="desc text-critcal mt-4 fs-14 fw-400">Send</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-critcal">-$114</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">2 days ago</div>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img w-48 h-48 p-12 bg-warning"><i class="ph-bold ph-monitor fs-24 text-white"></i></div>
+                <div class="infor ml-12">
+                  <div class="name">Television bill</div>
+                  <div class="desc text-critcal mt-4 fs-14 fw-400">Send</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-critcal">-$31</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">2 days ago</div>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar4.png" alt="Leahead"></div>
+                <div class="infor ml-12">
+                  <div class="name">Leahead</div>
+                  <div class="desc text-success mt-4 fs-14 fw-400">Received</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-success">+$100</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">2 days ago</div>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img w-48 h-48 p-12 bg-success"><i
+                    class="ph-fill ph-shopping-cart-simple fs-24 text-white"></i></div>
+                <div class="infor ml-12">
+                  <div class="name">Market bill</div>
+                  <div class="desc text-critcal mt-4 fs-14 fw-400">Send</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-critcal">-$10</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">3 days ago</div>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img w-48 h-48 p-12 bg-interactive"><i class="ph-bold ph-monitor fs-24 text-white"></i>
+                </div>
+                <div class="infor ml-12">
+                  <div class="name">Television bill</div>
+                  <div class="desc text-critcal mt-4 fs-14 fw-400">Send</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-critcal">-$34</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">3 days ago</div>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line border-none"><a class="share-item-main flex-between"
+              href="history.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar19.png" alt="William"></div>
+                <div class="infor ml-12">
+                  <div class="name">William</div>
+                  <div class="desc text-success mt-4 fs-14 fw-400">Received</div>
+                </div>
+              </div>
+              <div class="right-infor text-right">
+                <div class="money text-success">+$50</div>
+                <div class="time text-secondary mt-4 fs-12 fw-400">3 days ago</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="style-home">
+    <div class="menu-bar-block bg-white flex-between"><a class="item-link" href="home.html">
+        <svg width="24" height="24" viewBox="3 2 44 50" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M19.0307 43.2779V36.9076C19.0307 35.2815 20.3586 33.9632 21.9967 33.9632H27.9845C28.7711 33.9632 29.5255 34.2734 30.0818 34.8256C30.638 35.3778 30.9505 36.1267 30.9505 36.9076V43.2779C30.9455 43.9539 31.2126 44.604 31.6924 45.0838C32.1722 45.5636 32.825 45.8334 33.506 45.8334H37.5912C39.4992 45.8383 41.3307 45.0893 42.6815 43.7518C44.0324 42.4142 44.7916 40.598 44.7916 38.7039V20.556C44.7915 19.026 44.1084 17.5748 42.9262 16.5931L29.0291 5.57481C26.6117 3.64292 23.1481 3.70529 20.8028 5.72295L7.22286 16.5931C5.98479 17.5458 5.24482 19.0014 5.20825 20.556V38.6854C5.20825 42.6331 8.43196 45.8334 12.4086 45.8334H16.4005C17.815 45.8334 18.9645 44.7005 18.9747 43.2964L19.0307 43.2779Z"
+            fill="white" stroke="#232440" stroke-width="2"></path>
+        </svg></a><a class="item-link" href="pages.html">
+        <svg width="24" height="24" viewBox="3 2 44 50" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M25.2237 4.27855C25.0829 4.20817 24.9172 4.20817 24.7765 4.27855L5.06118 14.1362C4.69265 14.3205 4.69265 14.8464 5.06118 15.0306L24.7765 24.8883C24.9172 24.9587 25.0829 24.9587 25.2237 24.8883L44.939 15.0306C45.3075 14.8464 45.3075 14.3205 44.939 14.1362L25.2237 4.27855Z"
+            fill="white" stroke="#232440" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M4.16675 35.4167L24.1057 45.3862C24.6687 45.6677 25.3315 45.6677 25.8945 45.3862L45.8334 35.4167"
+            fill="none" stroke="#232440" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M4.16675 25L24.1057 34.9695C24.6687 35.251 25.3315 35.251 25.8945 34.9695L45.8334 25" fill="none"
+            stroke="#232440" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg></a><a class="item-link" href="analys.html">
+        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M7.33049 2.00049H16.6695C20.0705 2.00049 21.9905 3.92949 22.0005 7.33049V16.6705C22.0005 20.0705 20.0705 22.0005 16.6695 22.0005H7.33049C3.92949 22.0005 2.00049 20.0705 2.00049 16.6705V7.33049C2.00049 3.92949 3.92949 2.00049 7.33049 2.00049ZM12.0495 17.8605C12.4805 17.8605 12.8395 17.5405 12.8795 17.1105V6.92049C12.9195 6.61049 12.7705 6.29949 12.5005 6.13049C12.2195 5.96049 11.8795 5.96049 11.6105 6.13049C11.3395 6.29949 11.1905 6.61049 11.2195 6.92049V17.1105C11.2705 17.5405 11.6295 17.8605 12.0495 17.8605ZM16.6505 17.8605C17.0705 17.8605 17.4295 17.5405 17.4805 17.1105V13.8305C17.5095 13.5095 17.3605 13.2105 17.0895 13.0405C16.8205 12.8705 16.4805 12.8705 16.2005 13.0405C15.9295 13.2105 15.7805 13.5095 15.8205 13.8305V17.1105C15.8605 17.5405 16.2195 17.8605 16.6505 17.8605ZM8.21949 17.1105C8.17949 17.5405 7.82049 17.8605 7.38949 17.8605C6.95949 17.8605 6.59949 17.5405 6.56049 17.1105V10.2005C6.53049 9.88949 6.67949 9.58049 6.95049 9.41049C7.21949 9.24049 7.56049 9.24049 7.83049 9.41049C8.09949 9.58049 8.25049 9.88949 8.21949 10.2005V17.1105Z"
+            fill="none" stroke="#232440"></path>
+        </svg></a><a class="item-link" href="voucher.html">
+        <svg width="24" height="24" viewBox="3 2 44 50" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M42.498 19.0542L43.9986 20.5542C45.1865 21.7208 45.8326 23.3042 45.8326 24.9708C45.8534 26.6375 45.2073 28.2229 44.0402 29.4083C44.0264 29.4236 44.0125 29.437 43.9986 29.4505C43.9916 29.4572 43.9847 29.4639 43.9777 29.4708L42.498 30.95C41.9145 31.5333 41.581 32.325 41.581 33.1604V35.3042C41.581 38.7625 38.7675 41.5771 35.3079 41.5771H33.1613C32.3277 41.5771 31.5357 41.9083 30.9522 42.4917L29.4516 43.9917C28.222 45.2229 26.6173 45.825 25.0125 45.825C23.4078 45.825 21.803 45.2229 20.5734 44.0146L19.052 42.4917C18.4685 41.9083 17.6765 41.5771 16.8429 41.5771H14.6963C11.2367 41.5771 8.42317 38.7625 8.42317 35.3042V33.1604C8.42317 32.325 8.08971 31.5333 7.50617 30.9292L6.00562 29.45C3.56724 27.0146 3.5464 23.0333 5.98478 20.5771L7.50617 19.0542C8.08971 18.4708 8.42317 17.6792 8.42317 16.825V14.7C8.42317 11.2417 11.2367 8.43126 14.6963 8.43126H16.8429C17.6765 8.43126 18.4685 8.09584 19.052 7.51251L20.5526 6.01251C22.9909 3.55626 26.9716 3.55626 29.4308 5.99376L30.9522 7.51251C31.5357 8.09584 32.3277 8.43126 33.1613 8.43126H35.3079C38.7675 8.43126 41.581 11.2417 41.581 14.7V16.8479C41.581 17.6792 41.9145 18.4708 42.498 19.0542ZM19.6356 32.1792C20.1357 32.1792 20.5942 31.9917 20.9277 31.6375L31.6399 20.9313C32.3485 20.2229 32.3485 19.0542 31.6399 18.3458C30.9313 17.6396 29.7851 17.6396 29.0765 18.3458L18.3643 29.0542C17.6557 29.7625 17.6557 30.9292 18.3643 31.6375C18.6977 31.9917 19.1562 32.1792 19.6356 32.1792ZM28.5346 30.3458C28.5346 31.3667 29.3474 32.1792 30.3686 32.1792C31.369 32.1792 32.1818 31.3667 32.1818 30.3458C32.1818 29.3479 31.369 28.5333 30.3686 28.5333C29.3474 28.5333 28.5346 29.3479 28.5346 30.3458ZM19.6564 17.825C20.6568 17.825 21.4696 18.6375 21.4696 19.6375C21.4696 20.6604 20.6568 21.4708 19.6564 21.4708C18.656 21.4708 17.8224 20.6604 17.8224 19.6375C17.8224 18.6375 18.656 17.825 19.6564 17.825Z"
+            fill="white" stroke="#232440" stroke-width="2"></path>
+        </svg></a><a class="item-link" href="profile.html">
+        <svg width="24" height="24" viewBox="3 2 44 50" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M36.0292 15.1898C36.0292 21.3086 31.1232 26.2149 25 26.2149C18.879 26.2149 13.9709 21.3086 13.9709 15.1898C13.9709 9.07096 18.879 4.16675 25 4.16675C31.1232 4.16675 36.0292 9.07096 36.0292 15.1898ZM25 45.8334C15.9633 45.8334 8.33337 44.3647 8.33337 38.6979C8.33337 33.0291 16.0113 31.6124 25 31.6124C34.0388 31.6124 41.6667 33.0812 41.6667 38.7479C41.6667 44.4167 33.9888 45.8334 25 45.8334Z"
+            fill="white" stroke="#232440" stroke-width="2"></path>
+        </svg></a></div>
+  </div>
+  <script src="./assets/js/preload.js"></script>
+  <script src="./assets/js/jquery-3.7.0.js"></script>
+  <script src="./assets/js/jquery-migrate-3.4.1.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/bootstrap-drawer.min.js"></script>
+  <script src="./assets/js/main.min.js"></script>
+  <script src="./assets/js/darkmode.js"></script>
+  <script src="./assets/js/storeAccount.js"></script>
+
+  <script src="./assets/js/phosphor-icons.js"></script>
+</body>
+
+</html>

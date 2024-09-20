@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Faspay Wallet">
+  <meta name="theme-color" content="#EEF0F3">
+  <title>Add New Card</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="./assets/images/fav.png">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/slick.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap-drawer.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="header-main text-center pb-12 bg-white">
+    <button type="button" onclick="history.back();"><i class="ph ph-caret-left fs-24 fw-500 text-primary"></i></button>
+    <div class="page-name fs-24 fw-500">Add New Card</div>
+  </div>
+  <div id="content">
+    <div class="bg-primary" id="preload"><i class="ph-bold ph-circle-notch text-white"></i></div>
+    <div class="bank-select-block bg-white pt-12 pb-12 mt-4 pointer ">
+      <div class="container flex-between">
+        <div class="left flex-row-item-center">
+          <div class="bg-img w-56 h-56"><img class="w-100 h-100" src="assets/images/bank/Logo-3.png" alt="FAS BANK">
+          </div>
+          <div class="infor ml-12">
+            <div class="name fw-400">FAS BANK</div>
+            <div class="number fs-14 fw-400 text-secondary mt-4">123 456 789 000</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white">
+      <div class="container">
+        <div class="form-input-block bg-white mt-4 pt-12 pb-12 undefined">
+          <div class="form-group d-flex flex-column">
+            <div class="label-block flex-row-item-center">
+              <label class="fs-18">Bank Account</label>
+            </div>
+            <div class="input-block mt-8">
+              <input class="mt-4 form-control fw-400 text-secondary w-100 border-input" type="text" placeholder=""
+                value="123 456 789 000">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white">
+      <div class="container">
+        <div class="form-input-block bg-white mt-4 pt-12 pb-12 undefined">
+          <div class="form-group d-flex flex-column">
+            <div class="label-block flex-row-item-center">
+              <label class="fs-18">Expired</label>
+            </div>
+            <div class="input-block mt-8">
+              <input class="mt-4 form-control fw-400 text-secondary w-100 border-input" type="text" placeholder=""
+                value="12 / 24">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white bank-block">
+      <div class="container">
+        <div class="form-input-block bg-white mt-4 pt-12 pb-12 undefined">
+          <div class="form-group d-flex flex-column">
+            <div class="label-block flex-row-item-center">
+              <label class="fs-18">Bank</label>
+            </div>
+            <div class="input-block mt-8">
+              <input class="mt-4 pr-16 form-control fw-400 text-secondary w-100 border-input" type="text" placeholder=""
+                value="FAS Bank"><i class="ph-bold ph-caret-down text-secondary fw-400 pointer"></i>
+            </div>
+          </div>
+        </div>
+        <div class="sub-menu-input">
+          <div class="list-contact">
+            <div class="bank-select-block bg-white pt-12 pb-12 mt-4 pointer ">
+              <div class="container flex-between">
+                <div class="left flex-row-item-center">
+                  <div class="bg-img w-56 h-56"><img class="w-100 h-100" src="assets/images/bank/Logo-3.png"
+                      alt="FAS Bank"></div>
+                  <div class="infor ml-12">
+                    <div class="name fw-400">FAS Bank</div>
+                    <div class="number fs-14 fw-400 text-secondary mt-4">Avitex Banking for the future</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bank-select-block bg-white pt-12 pb-12 mt-4 pointer ">
+              <div class="container flex-between">
+                <div class="left flex-row-item-center">
+                  <div class="bg-img w-56 h-56"><img class="w-100 h-100" src="assets/images/bank/Logo-1.png"
+                      alt="ACB Bank"></div>
+                  <div class="infor ml-12">
+                    <div class="name fw-400">ACB Bank</div>
+                    <div class="number fs-14 fw-400 text-secondary mt-4">ACB Best of Banking</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bank-select-block bg-white pt-12 pb-12 mt-4 pointer ">
+              <div class="container flex-between">
+                <div class="left flex-row-item-center">
+                  <div class="bg-img w-56 h-56"><img class="w-100 h-100" src="assets/images/bank/Logo-2.png"
+                      alt="BIA Bank"></div>
+                  <div class="infor ml-12">
+                    <div class="name fw-400">BIA Bank</div>
+                    <div class="number fs-14 fw-400 text-secondary mt-4">BIA Bank - Free Banking</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bank-select-block bg-white pt-12 pb-12 mt-4 pointer ">
+              <div class="container flex-between">
+                <div class="left flex-row-item-center">
+                  <div class="bg-img w-56 h-56"><img class="w-100 h-100" src="assets/images/bank/Logo.png"
+                      alt="CBB Bank"></div>
+                  <div class="infor ml-12">
+                    <div class="name fw-400">CBB Bank</div>
+                    <div class="number fs-14 fw-400 text-secondary mt-4">CBB Bank - Build your life</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="list-card mt-4 bg-white pt-12 pb-16">
+      <div class="container">
+        <div class="heading fs-18 pl-8 pr-8">Result</div>
+        <div class="card-item mt-12 pl-8 pr-8">
+          <div class="card-main pt-16 pb-16 pl-24 pr-24 flex-columns-between"><img class="bg-img"
+              src="assets/images/bg/yellow.png" alt="">
+            <div class="heading-card">
+              <div class="card-name text-upper fs-14 text-white">FAS Bank </div>
+              <div class="card-number fs-14 fw-400 text-white">**** **** **** 4200</div>
+            </div>
+            <div class="footer-card flex-between">
+              <div class="card-infor flex-row-item-center">
+                <div class="user">
+                  <div class="title fs-12 fw-400 text-bg opacity-08">Card Name</div>
+                  <div class="user-name fs-14 text-white">David James</div>
+                </div>
+                <div class="exp ml-24">
+                  <div class="title fs-12 fw-400 text-bg opacity-08">Exp</div>
+                  <div class="user-exp fs-14 text-white">01/25</div>
+                </div>
+              </div><img src="assets/images/bg/card.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pb-70"></div>
+    <div class="button-block button-fixed bg-white">
+      <div class="container flex-center h-100"><a class="btn btn-main style-fixed" href="my-wallet.html">Add New
+          Card</a>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/preload.js"></script>
+  <script src="./assets/js/darkmode.js"></script>
+
+  <script src="./assets/js/jquery-3.7.0.js"></script>
+  <script src="./assets/js/jquery-migrate-3.4.1.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/bootstrap-drawer.min.js"></script>
+  <script src="./assets/js/transfer-by-bank.js"></script>
+  <script src="./assets/js/phosphor-icons.js"></script>
+</body>
+
+</html>

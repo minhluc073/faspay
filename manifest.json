@@ -1,0 +1,19 @@
+{
+    "lang": "en-us",
+    "name": "Faspay Wallet",
+    "short_name": "Faspay",
+    "description": "An e-wallet application that helps you manage your finances in a smart and easy way.",
+    "start_url": "/",
+    "background_color": "#EEF0F3",  
+    "theme_color": "#EEF0F3",
+    "minimal-ui": "display",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/fav.png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}

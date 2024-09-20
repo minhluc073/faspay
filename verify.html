@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Faspay Wallet">
+  <meta name="theme-color" content="#EEF0F3">
+  <title>Verify</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="./assets/images/fav.png">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/slick.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap-drawer.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="bg-white">
+  <div class="header-main text-center undefined bg-white">
+    <button type="button" onclick="history.back();"><i class="ph ph-caret-left fs-24 fw-500 text-primary"></i></button>
+    <div class="page-name fs-24 fw-500">Verify</div>
+  </div>
+  <div id="content">
+    <div class="bg-primary" id="preload"><i class="ph-bold ph-circle-notch text-white"></i></div>
+    <div class="verify-block pb-40 bg-white">
+      <div class="container">
+        <div class="bg-img pt-40"><img class="w-100" src="assets/images/FrameMail.png" alt="Mail"></div>
+        <div class="start-desc flex-columns-center text-center pt-24 w-100">
+          <div class="desc-title fs-24 fw-500">Verify your Phone</div>
+          <div class="desc-subtitle fs-14 fw-400 mt-12 text-secondary">Please enter the 4 digit code sent to
+            <span><br>505-287-8051</span>
+          </div>
+        </div>
+        <div class="verify-code-block">
+          <div class="input-block">
+            <input class="bg-surface fs-24" type="text">
+            <input class="bg-surface fs-24" type="text">
+            <input class="bg-surface fs-24" type="text">
+            <input class="bg-surface fs-24" type="text">
+          </div><a class="text-primary" href="#!">Recent code</a>
+        </div><a class="btn mt-40 btn-main" href="login.html">Confirm</a>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/preload.js"></script>
+  <script src="./assets/js/darkmode.js"></script>
+
+  <script src="./assets/js/phosphor-icons.js"></script>
+</body>
+
+</html>

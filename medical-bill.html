@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Faspay Wallet">
+  <meta name="theme-color" content="#EEF0F3">
+  <title>Medical Bill</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="./assets/images/fav.png">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/slick.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap-drawer.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="header-main text-center pb-12 bg-white">
+    <button type="button" onclick="history.back();"><i class="ph ph-caret-left fs-24 fw-500 text-primary"></i></button>
+    <div class="page-name fs-24 fw-500">Medical Bill</div>
+  </div>
+  <div id="content">
+    <div class="bg-primary" id="preload"><i class="ph-bold ph-circle-notch text-white"></i></div>
+    <div class="heading-line"></div>
+    <div class="bank-select-block bg-white pt-12 pb-12 mt-4 pointer">
+      <div class="container flex-between">
+        <div class="left flex-row-item-center">
+          <div class="bg-img bg-critcal flex-center w-56 h-56 bora-20">
+            <svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Icon" clip-path="url(#clip0_1255_3031)">
+                <path id="Vector" opacity="0.5"
+                  d="M17.2812 28H10.7188C10.2653 28 9.89844 27.6331 9.89844 27.1797V21.8787L5.6006 24.8883C5.42358 25.0133 5.20406 25.0662 4.98777 25.0237C4.77389 24.9861 4.58325 24.8651 4.45823 24.6865L0.69475 19.3104C0.435203 18.9395 0.524945 18.4284 0.896601 18.168L6.8495 14L0.896656 9.83194C0.524945 9.57157 0.435203 9.06052 0.694805 8.68957L4.45823 3.31352C4.5832 3.13485 4.77384 3.01388 4.98777 2.97626C5.20406 2.93863 5.42358 2.98829 5.6006 3.11166L9.89844 6.12134V0.820312C9.89844 0.366898 10.2653 0 10.7188 0H17.2812C17.7347 0 18.1016 0.366898 18.1016 0.820312V6.12134L22.3994 3.11166C22.5772 2.98829 22.7975 2.93863 23.0122 2.97626C23.2261 3.01388 23.4167 3.13485 23.5418 3.31352L27.3052 8.68962C27.5648 9.06052 27.4751 9.57163 27.1034 9.83199L21.1505 14L27.1034 18.1681C27.4751 18.4284 27.5649 18.9395 27.3052 19.3104L23.5418 24.6865C23.4168 24.8652 23.2262 24.9862 23.0122 25.0238C22.7975 25.0662 22.5772 25.0134 22.3994 24.8884L18.1016 21.8787V27.1797C18.1016 27.6331 17.7347 28 17.2812 28Z"
+                  fill="#fff"></path>
+                <path id="Vector_2"
+                  d="M27.3052 8.68962L23.5418 3.31352C23.4168 3.13485 23.2262 3.01388 23.0122 2.97626C22.7975 2.93863 22.5772 2.98829 22.3994 3.11166L18.1016 6.12134V0.820312C18.1016 0.366898 17.7347 0 17.2812 0H14V28H17.2812C17.7347 28 18.1016 27.6331 18.1016 27.1797V21.8787L22.3994 24.8883C22.5772 25.0133 22.7975 25.0662 23.0122 25.0237C23.2261 24.9861 23.4167 24.8651 23.5418 24.6865L27.3052 19.3104C27.5648 18.9395 27.4751 18.4284 27.1034 18.168L21.1505 14L27.1034 9.83194C27.4751 9.57157 27.5648 9.06052 27.3052 8.68962Z"
+                  fill="#fff"></path>
+              </g>
+              <defs>
+                <clippath id="clip0_1255_3031">
+                  <rect width="28" height="28" fill="white"></rect>
+                </clippath>
+              </defs>
+            </svg>
+          </div>
+          <div class="infor ml-12">
+            <div class="name fw-400">Medical Company</div>
+            <div class="number fs-14 fw-400 text-secondary mt-4">1024 0135 8686</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bill-block mt-16">
+      <div class="container">
+        <div class="pop-up">
+          <div class="desc-block">
+            <div class="heading fs-24">Bill Payment Due</div>
+            <div class="sub-heading mt-8 fw-400 text-secondary">Update From The Supplier Yesterday!</div>
+            <div class="money mt-24 fs-24 text-primary">$123.00</div>
+          </div>
+          <div class="dashed-line"></div>
+          <div class="user-infor">
+            <div class="heading text-center">Customer Information</div>
+            <div class="list-infor mt-20">
+              <div class="infor flex-between">
+                <div class="fs-14 text-box">Customer's Code</div>
+                <div class="fs-14">PD123456789</div>
+              </div>
+              <div class="infor flex-between mt-8">
+                <div class="fs-14 text-box">Customer's Name</div>
+                <div class="fs-14">David James</div>
+              </div>
+              <div class="infor flex-between mt-8">
+                <div class="fs-14 text-box">Phone Number</div>
+                <div class="fs-14">109-225-463</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button-block button-fixed bg-white">
+        <div class="container flex-center h-100"><a class="btn btn-main" href="pay-the-bill.html">Pay the bill</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/preload.js"></script>
+  <script src="./assets/js/darkmode.js"></script>
+
+  <script src="./assets/js/phosphor-icons.js"></script>
+</body>
+
+</html>

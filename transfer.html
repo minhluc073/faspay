@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Faspay Wallet">
+  <meta name="theme-color" content="#EEF0F3">
+  <title>Transfer</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="./assets/images/fav.png">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/slick.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap-drawer.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="header-main text-center pb-12 bg-white">
+    <button type="button" onclick="history.back();"><i class="ph ph-caret-left fs-24 fw-500 text-primary"></i></button>
+    <div class="page-name fs-24 fw-500">Transfer</div>
+  </div>
+  <div id="content">
+    <div class="bg-primary" id="preload"><i class="ph-bold ph-circle-notch text-white"></i></div>
+    <div class="heading-line"></div>
+    <div class="transfer-item-heading mt-4 pt-4 bg-white">
+      <div class="container">
+        <div class="nav-item pb-12 pt-12 bb-line border-none"><a class="nav-item-main flex-between"
+            href="choose-friend.html">
+            <div class="left-infor d-flex align-items-center">
+              <div class="bg-img w-24 h-24 lh-30 text-center"><i class="ph ph-wallet fs-20"></i></div>
+              <div class="nav ml-16 fw-400">Transfer by Faspay wallet</div>
+            </div>
+            <div class="right-infor text-right flex-row-item-center gap-8"><i
+                class="ph ph-caret-right fs-14 text-secondary"></i>
+            </div>
+          </a></div>
+      </div>
+    </div>
+    <div class="transfer-item-heading mt-4 pt-4 bg-white">
+      <div class="container">
+        <div class="nav-item pb-12 pt-12 bb-line border-none"><a class="nav-item-main flex-between"
+            href="transfer-by-bank.html">
+            <div class="left-infor d-flex align-items-center">
+              <div class="bg-img w-24 h-24 lh-30 text-center"><i class="ph ph-bank fs-20"></i></div>
+              <div class="nav ml-16 fw-400">Transfer by Bank</div>
+            </div>
+            <div class="right-infor text-right flex-row-item-center gap-8"><i
+                class="ph ph-caret-right fs-14 text-secondary"></i>
+            </div>
+          </a></div>
+      </div>
+    </div>
+    <div class="recent-transfer-block mt-4 pt-12 bg-white">
+      <div class="container">
+        <div class="trading-history-heading fs-18">Recent transfer</div>
+        <div class="list-history">
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar.png" alt="Georgina"></div>
+                <div class="infor ml-12">
+                  <div class="name">Georgina</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">523-278-8012</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar12.png" alt="David"></div>
+                <div class="infor ml-12">
+                  <div class="name">David</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">235-287-8051</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar2.png" alt="Hannah"></div>
+                <div class="infor ml-12">
+                  <div class="name">Hannah</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">785-457-8034</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line border-none"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar3.png" alt="John"></div>
+                <div class="infor ml-12">
+                  <div class="name">John</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">512-254-3421</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="friend-transfer-block mt-4 pt-12 pb-80 bg-white">
+      <div class="container">
+        <div class="trading-history-heading fs-18">Friends</div>
+        <div class="list-history">
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar14.png" alt="Roberto"></div>
+                <div class="infor ml-12">
+                  <div class="name">Roberto</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">125-257-7851</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar15.png" alt="Sergio"></div>
+                <div class="infor ml-12">
+                  <div class="name">Sergio</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">532-097-8051</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar16.png" alt="Alexis"></div>
+                <div class="infor ml-12">
+                  <div class="name">Alexis</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">125-677-8051</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar17.png" alt="Cris"></div>
+                <div class="infor ml-12">
+                  <div class="name">Cris</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">505-287-8051</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar18.png" alt="Leahead"></div>
+                <div class="infor ml-12">
+                  <div class="name">Leahead</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">555-287-8051</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar19.png" alt="Erik"></div>
+                <div class="infor ml-12">
+                  <div class="name">Erik</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">535-287-8051</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar10.png" alt="Thomas"></div>
+                <div class="infor ml-12">
+                  <div class="name">Thomas</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">505-287-8051</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line undefined"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar11.png" alt="William"></div>
+                <div class="infor ml-12">
+                  <div class="name">William</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">505-287-3451</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+          <div class="share-item pb-12 pt-12 bb-line border-none"><a class="user-item share-item-main flex-between"
+              href="transfer-by-wallet.html">
+              <div class="left-infor d-flex align-items-center">
+                <div class="bg-img bg-white border-primary bora-50 p-4 w-48 h-48"><img class="w-100 h-100"
+                    src="assets/images/avatar/avatar13.png" alt="Daniel"></div>
+                <div class="infor ml-12">
+                  <div class="name">Daniel</div>
+                  <div class="desc text-secondary mt-4 fs-14 fw-400">505-287-8051</div>
+                </div>
+              </div>
+              <div class="right-infor text-right"><i class="ph ph-caret-right fs-14 text-secondary"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="style-sub">
+    <div class="menu-bar-block bg-white flex-between"><a class="item-link" href="home.html">
+        <svg width="24" height="24" viewBox="3 2 44 50" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M19.0307 43.2779V36.9076C19.0307 35.2815 20.3586 33.9632 21.9967 33.9632H27.9845C28.7711 33.9632 29.5255 34.2734 30.0818 34.8256C30.638 35.3778 30.9505 36.1267 30.9505 36.9076V43.2779C30.9455 43.9539 31.2126 44.604 31.6924 45.0838C32.1722 45.5636 32.825 45.8334 33.506 45.8334H37.5912C39.4992 45.8383 41.3307 45.0893 42.6815 43.7518C44.0324 42.4142 44.7916 40.598 44.7916 38.7039V20.556C44.7915 19.026 44.1084 17.5748 42.9262 16.5931L29.0291 5.57481C26.6117 3.64292 23.1481 3.70529 20.8028 5.72295L7.22286 16.5931C5.98479 17.5458 5.24482 19.0014 5.20825 20.556V38.6854C5.20825 42.6331 8.43196 45.8334 12.4086 45.8334H16.4005C17.815 45.8334 18.9645 44.7005 18.9747 43.2964L19.0307 43.2779Z"
+            fill="white" stroke="#232440" stroke-width="2"></path>
+        </svg></a><a class="item-link" href="pages.html">
+        <svg width="24" height="24" viewBox="3 2 44 50" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M25.2237 4.27855C25.0829 4.20817 24.9172 4.20817 24.7765 4.27855L5.06118 14.1362C4.69265 14.3205 4.69265 14.8464 5.06118 15.0306L24.7765 24.8883C24.9172 24.9587 25.0829 24.9587 25.2237 24.8883L44.939 15.0306C45.3075 14.8464 45.3075 14.3205 44.939 14.1362L25.2237 4.27855Z"
+            fill="white" stroke="#232440" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M4.16675 35.4167L24.1057 45.3862C24.6687 45.6677 25.3315 45.6677 25.8945 45.3862L45.8334 35.4167"
+            fill="none" stroke="#232440" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M4.16675 25L24.1057 34.9695C24.6687 35.251 25.3315 35.251 25.8945 34.9695L45.8334 25" fill="none"
+            stroke="#232440" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg></a><a class="item-link" href="analys.html">
+        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M7.33049 2.00049H16.6695C20.0705 2.00049 21.9905 3.92949 22.0005 7.33049V16.6705C22.0005 20.0705 20.0705 22.0005 16.6695 22.0005H7.33049C3.92949 22.0005 2.00049 20.0705 2.00049 16.6705V7.33049C2.00049 3.92949 3.92949 2.00049 7.33049 2.00049ZM12.0495 17.8605C12.4805 17.8605 12.8395 17.5405 12.8795 17.1105V6.92049C12.9195 6.61049 12.7705 6.29949 12.5005 6.13049C12.2195 5.96049 11.8795 5.96049 11.6105 6.13049C11.3395 6.29949 11.1905 6.61049 11.2195 6.92049V17.1105C11.2705 17.5405 11.6295 17.8605 12.0495 17.8605ZM16.6505 17.8605C17.0705 17.8605 17.4295 17.5405 17.4805 17.1105V13.8305C17.5095 13.5095 17.3605 13.2105 17.0895 13.0405C16.8205 12.8705 16.4805 12.8705 16.2005 13.0405C15.9295 13.2105 15.7805 13.5095 15.8205 13.8305V17.1105C15.8605 17.5405 16.2195 17.8605 16.6505 17.8605ZM8.21949 17.1105C8.17949 17.5405 7.82049 17.8605 7.38949 17.8605C6.95949 17.8605 6.59949 17.5405 6.56049 17.1105V10.2005C6.53049 9.88949 6.67949 9.58049 6.95049 9.41049C7.21949 9.24049 7.56049 9.24049 7.83049 9.41049C8.09949 9.58049 8.25049 9.88949 8.21949 10.2005V17.1105Z"
+            fill="none" stroke="#232440"></path>
+        </svg></a><a class="item-link" href="voucher.html">
+        <svg width="24" height="24" viewBox="3 2 44 50" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M42.498 19.0542L43.9986 20.5542C45.1865 21.7208 45.8326 23.3042 45.8326 24.9708C45.8534 26.6375 45.2073 28.2229 44.0402 29.4083C44.0264 29.4236 44.0125 29.437 43.9986 29.4505C43.9916 29.4572 43.9847 29.4639 43.9777 29.4708L42.498 30.95C41.9145 31.5333 41.581 32.325 41.581 33.1604V35.3042C41.581 38.7625 38.7675 41.5771 35.3079 41.5771H33.1613C32.3277 41.5771 31.5357 41.9083 30.9522 42.4917L29.4516 43.9917C28.222 45.2229 26.6173 45.825 25.0125 45.825C23.4078 45.825 21.803 45.2229 20.5734 44.0146L19.052 42.4917C18.4685 41.9083 17.6765 41.5771 16.8429 41.5771H14.6963C11.2367 41.5771 8.42317 38.7625 8.42317 35.3042V33.1604C8.42317 32.325 8.08971 31.5333 7.50617 30.9292L6.00562 29.45C3.56724 27.0146 3.5464 23.0333 5.98478 20.5771L7.50617 19.0542C8.08971 18.4708 8.42317 17.6792 8.42317 16.825V14.7C8.42317 11.2417 11.2367 8.43126 14.6963 8.43126H16.8429C17.6765 8.43126 18.4685 8.09584 19.052 7.51251L20.5526 6.01251C22.9909 3.55626 26.9716 3.55626 29.4308 5.99376L30.9522 7.51251C31.5357 8.09584 32.3277 8.43126 33.1613 8.43126H35.3079C38.7675 8.43126 41.581 11.2417 41.581 14.7V16.8479C41.581 17.6792 41.9145 18.4708 42.498 19.0542ZM19.6356 32.1792C20.1357 32.1792 20.5942 31.9917 20.9277 31.6375L31.6399 20.9313C32.3485 20.2229 32.3485 19.0542 31.6399 18.3458C30.9313 17.6396 29.7851 17.6396 29.0765 18.3458L18.3643 29.0542C17.6557 29.7625 17.6557 30.9292 18.3643 31.6375C18.6977 31.9917 19.1562 32.1792 19.6356 32.1792ZM28.5346 30.3458C28.5346 31.3667 29.3474 32.1792 30.3686 32.1792C31.369 32.1792 32.1818 31.3667 32.1818 30.3458C32.1818 29.3479 31.369 28.5333 30.3686 28.5333C29.3474 28.5333 28.5346 29.3479 28.5346 30.3458ZM19.6564 17.825C20.6568 17.825 21.4696 18.6375 21.4696 19.6375C21.4696 20.6604 20.6568 21.4708 19.6564 21.4708C18.656 21.4708 17.8224 20.6604 17.8224 19.6375C17.8224 18.6375 18.656 17.825 19.6564 17.825Z"
+            fill="white" stroke="#232440" stroke-width="2"></path>
+        </svg></a><a class="item-link" href="profile.html">
+        <svg width="24" height="24" viewBox="3 2 44 50" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M36.0292 15.1898C36.0292 21.3086 31.1232 26.2149 25 26.2149C18.879 26.2149 13.9709 21.3086 13.9709 15.1898C13.9709 9.07096 18.879 4.16675 25 4.16675C31.1232 4.16675 36.0292 9.07096 36.0292 15.1898ZM25 45.8334C15.9633 45.8334 8.33337 44.3647 8.33337 38.6979C8.33337 33.0291 16.0113 31.6124 25 31.6124C34.0388 31.6124 41.6667 33.0812 41.6667 38.7479C41.6667 44.4167 33.9888 45.8334 25 45.8334Z"
+            fill="white" stroke="#232440" stroke-width="2"></path>
+        </svg></a></div>
+  </div>
+  <script src="./assets/js/preload.js"></script>
+  <script src="./assets/js/darkmode.js"></script>
+  <script src="./assets/js/storeAccount.js"></script>
+  <script src="./assets/js/phosphor-icons.js"></script>
+</body>
+
+</html>
