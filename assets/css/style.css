@@ -2270,7 +2270,8 @@ body.darkmode #content {
 
 /* Send Again (home.html): Start */
 .send-again-block .list-send-again .slick-list {
-  overflow: unset;
+  /* overflow: unset; */
+  margin-right: -16px;
 }
 
 .send-again-block .list-send-again .item {
